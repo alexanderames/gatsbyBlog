@@ -11,5 +11,5 @@ export default () => (
     <p>
     Lorem ipsum and all that fun shit.
     </p>
-  </div>
+  </Layout>
 )
