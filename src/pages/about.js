@@ -1,8 +1,9 @@
 import React from "react"
 import { Link } from "gatsby"
+import Layout from '../components/layout'
 
 export default () => (
-  <div>
+  <Layout>
     <h1>This is the about page</h1>
     <div>
       <Link to="/">HOME</Link> | <Link to="/about">ABOUT</Link>
