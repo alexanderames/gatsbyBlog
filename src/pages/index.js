@@ -6,10 +6,10 @@ export default () => (
   <Layout>
     <h1>This is the index page</h1>
     <div>
-      <Link to="/">HOME</Link> | <Link to="/about">ABOUT</Link>
+      <Link to="/">Blog</Link> | <Link to="/about">About</Link>
     </div>
     <p>
-    Lorem ipsum and all that fun shit.
+      The home page... and it feels so good.
     </p>
   </Layout>
 )

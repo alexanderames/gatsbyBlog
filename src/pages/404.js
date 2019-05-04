@@ -8,9 +8,9 @@ export default () => (
     <div className={styles.content}>
       <h1 className={styles.header}>404 Page not found</h1>
       <p className={styles.errorMessage}>
-      Lorem ipsum and all that fun shit.
+        These are not the droids you are looking for.
       </p>
-      <Link to='/'>Home</Link>
+      <Link to='/'>Blog</Link>
     </div>
   </Layout>
 )
