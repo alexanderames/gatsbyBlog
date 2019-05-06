@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link } from 'gatsby'
+import { Link, StaticQuery, graphql } from 'gatsby'
 import styles from './header.module.scss'
 
 // HeaderLink component
@@ -22,19 +22,19 @@ const SocialButton = (props) => {
 
   if (props.site === 'twitter') {
     style = styles.buttonTwitter;
-    url = "https://twitter.com/" + props.username;
+    url = 'https://twitter.com/' + props.username;
   }
   else if (props.site === 'linkedin') {
     style = styles.buttonLinkedin;
-    url = "https://www.linkedin.com/in/" + props.username;
+    url = 'https://www.linkedin.com/in/' + props.username;
   }
   else if (props.site === 'github') {
     style = styles.buttonGithub;
-    url = "https://www.github.com/" + props.username;
+    url = 'https://www.github.com/' + props.username;
   }
 
   return (
-    <a href={url} target="_blank" rel="noopener noreferrer">
+    <a href={url} target='_blank' rel='noopener noreferrer'>
       <div className={style}>{props.children}&nbsp;</div>
     </a>
   )
@@ -43,20 +43,34 @@ const SocialButton = (props) => {
 
 export default () => (
 
-   <header className={styles.container}>
+  <StaticQuery
 
-        <div className={styles.row}>
-          <HomeButton to='/' text='My Gatsby blog' />
-          <SocialButton site="github" username="alexanderames"></SocialButton>
-          <SocialButton site="linkedin" username="alexanderames"></SocialButton>
-          <SocialButton site="twitter" username="amesdev"></SocialButton>
-        </div>
+    query = {graphql `
+      query {
+        site {
+          siteMetadata {
+            title
+          }
+        }
+      }
+  `}
+
+    render = { data => (
+
+      <header className={styles.container}>
 
         <div className={styles.row}>
           <HeaderLink to='/' text='ARTICLES' />
-          <HeaderLink to='/about' text='ABOUT'/>
+          <HeaderLink to='/about' text='ABOUT' />
+          <HomeButton to='/' text={data.site.siteMetadata.title} />
+          <SocialButton site='github' username='alexanderames'></SocialButton>
+          <SocialButton site='linkedin' username='alexanderames'></SocialButton>
+          <SocialButton site='twitter' username='amesdev'></SocialButton>
         </div>
+      </header>
 
-   </header>
+    )}
+
+  />
 
 )

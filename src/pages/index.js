@@ -1,25 +1,14 @@
-import React from "react"
-import { Link } from "gatsby"
-import { graphql } from 'gatsby'
+import React from 'react'
 import Layout from '../components/layout'
 import Title from '../components/title'
+import ArticleList from '../components/article-list'
 
-export default ({data}) => (
+export default () => (
   <Layout>
-    <Title text={data.site.siteMetadata.title}/>
-    <div>
-      <Link to="/">Blog</Link> | <Link to="/about">About</Link>
-    </div>
+    <Title text='Welcome'/>
     <p>
-      Blog etsy crucifix, iceland palo santo austin kitsch shoreditch selvage pork belly scenester semiotics 8-bit typewriter. Everyday carry cronut keffiyeh beard single-origin coffee, tbh seitan fanny pack neutra butcher sriracha sartorial hoodie pinterest squid. Echo park sriracha lyft, selfies mustache gluten-free crucifix fanny pack. Polaroid hell of meggings taxidermy, succulents 90's waistcoat man bun sustainable marfa hella. Flannel gentrify art party keytar asymmetrical drinking vinegar green juice organic echo park.
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
     </p>
+    <ArticleList />
   </Layout>
 )
-
-export const query = graphql `query {
-  site {
-    siteMetadata {
-      title
-    }
-  }
-}`
