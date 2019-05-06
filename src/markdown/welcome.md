@@ -1,23 +1,23 @@
 ---
-title: "Welcome to my new Gatsby blog!"
-date: "2019-01-01"
+title: "Thanks for reading!"
+date: "2019-05-01"
 image: "https://source.unsplash.com/150x150/?welcome"
-keywords: "developers"
+keywords: "vw"
 ---
 
 
-#Hi there!
+#Oh, hello.
 
-**Est culpa fugiat** sint et mollit laboris dolore. Eiusmod qui adipisicing tempor ullamco irure non aliqua commodo proident laboris. Voluptate excepteur laborum anim exercitation Lorem exercitation eu irure voluptate. Et nulla pariatur reprehenderit ea exercitation ex consequat ad fugiat sunt eiusmod. Esse nostrud exercitation non tempor ad ipsum ea quis aute proident proident adipisicing amet. Nostrud esse non Lorem nostrud sunt mollit consectetur veniam quis duis ea anim sint.
+ I've been wanting to make a blog for awhile now but never had the chance. The toughest part was what to make the blog about. Should it be tech (write what I know)? Or should it be purely, Journal-related, writing posts? Politics? Religion? I finally decided.. Why not everything!
 
-##Quis est nisi voluptate
+##Software
 
-*Quis est nisi voluptate* non id magna voluptate laboris reprehenderit sunt. Sunt est nisi aliquip culpa eiusmod ad occaecat culpa mollit commodo proident eiusmod. Ullamco dolore enim commodo ad esse sit velit ad dolor mollit aute fugiat eu.
+I love what I do. I started my software development career roughly 4 yrs ago when I found out my wife was pregnant. I was working at a computer repair shop when we got the wonderful news and I thought to myself, *damn I need to get a real job*. So I began coding in my free time. I instantly fell in love with it. Working around hardware all day, the biggest set back was the limitation to it all. A soldering iron, logic board, screw driver, etc., it was all too confining. With software, the sky is the limit (not really, there are servers involved and whatnot, but you get the idea). I began creating one app after another and the rest, as they say, is history.
 
-##Aliqua et officia
+##Home
 
-Aliqua et officia ad et dolore pariatur aute sunt ad consequat amet id. Pariatur dolor ex mollit aliquip nisi irure consectetur qui exercitation ut veniam esse. Labore duis aliquip dolore irure minim cupidatat. Veniam consequat elit esse do veniam ullamco id pariatur fugiat aliqua et deserunt. Tempor culpa eu ipsum exercitation proident. Id eiusmod amet labore duis minim veniam eiusmod cillum velit.
+I am married with two young daughters, who are 1 & 3 yrs old. We live in Denver, CO and I don't think we are ever leaving. Originally from Phoenix, AZ, I can not take the heat anymore and welcome the snowy winters of the Rockies. I am currently in the process of trying to buy a "rolling-home", (pictures to follow). What I mean by rolling-home is a motor vehicle that you can sleep in, which can be anything from a Class-C RV to a conversion van.
 
-###Proident aliqua
+###What to expect..
 
-Proident aliqua fugiat dolor ut officia officia voluptate elit laborum minim. Officia occaecat est duis amet officia sit eu. Excepteur cupidatat sit laborum mollit aliquip. Sint incididunt dolore incididunt et. Deserunt dolor enim nulla nisi.
+Like I mentioned previously, I plan to write: extremely personal entries, technical write-ups, and all the comedic bits'n'bobs that make up this beautiful life I live. If you made it this far, hat's off amigo!

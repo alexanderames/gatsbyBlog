@@ -7,7 +7,7 @@ export default () => (
   <Layout>
     <Title text='Welcome'/>
     <p>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      If you are a software developer who has made a blog app, and you've arrived at a blog app, you might not even get a chance to read this because you may be thinking <i>Oh god, not another blog app</i>. That's fine. But this isn't just any blog app written by just any dev. This is the space where I feel free to write, code, rant, and show off what I got. Enjoy ;)
     </p>
     <ArticleList />
   </Layout>

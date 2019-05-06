@@ -1,17 +1,10 @@
 import React from 'react'
-import { Link, StaticQuery, graphql } from 'gatsby'
+import { Link } from 'gatsby'
 import styles from './header.module.scss'
 
 // HeaderLink component
 const HeaderLink = props => (
   <Link className={styles.link} to={props.to}>{props.text}</Link>
-)
-
-// HomeButton component
-const HomeButton = props => (
-  <Link to={props.to}>
-    <div className={styles.button}>{props.text}</div>
-  </Link>
 )
 
 // SocialButton component
@@ -43,34 +36,15 @@ const SocialButton = (props) => {
 
 export default () => (
 
-  <StaticQuery
-
-    query = {graphql `
-      query {
-        site {
-          siteMetadata {
-            title
-          }
-        }
-      }
-  `}
-
-    render = { data => (
-
       <header className={styles.container}>
 
         <div className={styles.row}>
           <HeaderLink to='/' text='ARTICLES' />
           <HeaderLink to='/about' text='ABOUT' />
-          <HomeButton to='/' text={data.site.siteMetadata.title} />
           <SocialButton site='github' username='alexanderames'></SocialButton>
           <SocialButton site='linkedin' username='alexanderames'></SocialButton>
           <SocialButton site='twitter' username='amesdev'></SocialButton>
         </div>
       </header>
-
-    )}
-
-  />
 
 )
