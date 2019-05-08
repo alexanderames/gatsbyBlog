@@ -1,5 +1,5 @@
 ---
-title: "Thanks for reading!"
+title: "A few words about the developer."
 date: "2019-05-01"
 image: "https://source.unsplash.com/150x150/?welcome"
 keywords: "vw"

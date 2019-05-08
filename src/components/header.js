@@ -35,9 +35,7 @@ const SocialButton = (props) => {
 }
 
 export default () => (
-
       <header className={styles.container}>
-
         <div className={styles.row}>
           <HeaderLink to='/' text='ARTICLES' />
           <HeaderLink to='/about' text='ABOUT' />
@@ -46,5 +44,4 @@ export default () => (
           <SocialButton site='twitter' username='amesdev'></SocialButton>
         </div>
       </header>
-
 )
